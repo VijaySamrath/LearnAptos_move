@@ -1,0 +1,18 @@
+[package]
+name = "aptoslearn"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Myaddr = 'd9b495640767f93fb5f8d34c7bcde45ba716b0ac9eaa7eafe6e48790bf300c01'
+my_addrx = "0x42"
+std = "0x1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
