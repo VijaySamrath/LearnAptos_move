@@ -23,7 +23,7 @@ module my_addrx::constant
 
 
 /*Constants must start with a capital letter A to Z.
-
+ */
 // //Valid
 // const Foo:u64=123;
 // const Flag:bool=true; 
